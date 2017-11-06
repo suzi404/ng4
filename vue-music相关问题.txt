@@ -1,0 +1,7 @@
+安装vue-music失败：
+  node-pre-gyp install --fallback-to-build
+解决方法：
+  npm install --global --production windows-build-tools
+  npm install  -g node-gyp
+  npm install
+  
